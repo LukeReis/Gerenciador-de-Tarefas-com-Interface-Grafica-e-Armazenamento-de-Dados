@@ -21,7 +21,7 @@ def carregar_tarefas():
 
 # Criando o layout
 def criar_janela_inicial():
-    sg.theme('DarkBlue4')
+    sg.theme('Reddit')
     tarefas = carregar_tarefas()
     lista_tarefas = [
         [sg.Checkbox(tarefa[0], default=tarefa[2]), sg.Text(tarefa[1])]
